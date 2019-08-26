@@ -1,0 +1,9 @@
+s=input()
+s1=str(int(s)**2)
+a=s1[:(len(s1)//2)]
+b=s1[(len(s1)//2):]
+c=str(int(a)+int(b))
+if(c==s):
+    print("yes")
+else:
+    print("no")
