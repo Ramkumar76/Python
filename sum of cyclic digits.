@@ -1,0 +1,10 @@
+n=input()
+a=[]
+for i in n:
+    a.append(int(i))
+b=[]
+for i in range(0,len(a)):
+    c=sum(a)
+    b.append(c)
+    a.remove(a[0])
+print(sum(b))
